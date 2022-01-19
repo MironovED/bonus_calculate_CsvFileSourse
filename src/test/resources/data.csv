@@ -1,0 +1,5 @@
+testName, amount, registered, expected
+"'registered user,over limit'", 100000060, true, 500
+"'registered user,under limit'", 5000, true, 1
+"'registered user,over limit'", 10060000, false, 500
+"'registered user,under limit'", 15000, false, 1
